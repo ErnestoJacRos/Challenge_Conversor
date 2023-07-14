@@ -1,13 +1,12 @@
-import javax.print.attribute.standard.NumberUp;
 import javax.swing.*;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class MainDos {
+public class ChallengeConversor {
     public static void main(String[] args) {
-        Icon logo = new ImageIcon(MainDos.class.getResource("/divisas.png"));
-        Icon logoMoneda = new ImageIcon(MainDos.class.getResource("/monedas.png"));
-        Icon logoTemperatura = new ImageIcon(MainDos.class.getResource("/temperatura.jpg"));
+        Icon logo = new ImageIcon(ChallengeConversor.class.getResource("/divisas.png"));
+        Icon logoMoneda = new ImageIcon(ChallengeConversor.class.getResource("/monedas.png"));
+        Icon logoTemperatura = new ImageIcon(ChallengeConversor.class.getResource("/temperatura.jpg"));
         Object[] conversores = {
                 "Conversor de Divisas",
                 "Conversor de Temperatura"
